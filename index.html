@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Example MoneyButton
+    </title>
+    <style media="screen">
+       body {
+         font-size: 1.75em;
+         font-family: helvetica, sans-serif;
+         padding:0;
+       }
+      .callout {
+        margin-top: 50px;
+        margin-left: 0;
+        border-left: 150px solid #4872F6;
+        padding: 1em;
+      }
+      @media only screen and (max-width: 600px) {
+        body {
+          font-size: 1.25em;
+        }
+        .callout {
+          margin-top: 20px;
+          margin-left: 0;
+          border-left: 25px solid #4872F6;
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="callout">
+      <p>
+        See how easy it is to send small amounts using
+        <a href="https://www.moneybutton.com">
+          MoneyButton</a> 🚀
+      </p>
+      <p>
+        This working MoneyButton
+        sends $1 in
+        <a href="https://bitcoinsv.io/" target="_blank" rel="noopener">BSV</a>
+        to
+        afomi@moneybutton.com.
+      </p>
+      <div class="money-button"
+        data-to="4512"
+        data-amount="1.00"
+        data-currency="USD"
+        data-label=""
+        data-client-identifier="2aa36cf20d020bd572ef34565a8466b4"
+        data-button-id="1559977829343"
+        data-button-data="{}"
+        data-type="tip">
+      </div>
+      <p>
+        <a href="https://twitter.com/randw" target="_blank" rel="noopener">Ryan</a>
+        is thankful 🙏
+      </p>
+      <p style="font-size: 14px; margin-top: 60px;">
+        Create a MoneyButton for yourself or community group.
+        Check out the
+        <a href="https://docs.moneybutton.com/docs/mb-html.html">docs</a>.
+      </p>
+      <p style="font-size: 14px; margin-top: 60px;">
+        disclaimer: not affiliated with MoneyButton
+      </p>
+    </div>
+    <script src="https://www.moneybutton.com/moneybutton.js"></script>
+  </body>
+</html>
